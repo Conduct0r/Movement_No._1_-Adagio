@@ -76,6 +76,25 @@ body  {
   padding: 20px;
 }
 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%
+  }
+}
+
 </style>
 </head>
 <body>
@@ -122,6 +141,10 @@ body  {
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
 </div>
 
 </body>
